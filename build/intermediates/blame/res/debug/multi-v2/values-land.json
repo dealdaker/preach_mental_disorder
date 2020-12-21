@@ -1,0 +1,89 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Faizan Work\\PreachMentalDisorder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Matloob\\.gradle\\caches\\transforms-2\\files-2.1\\6abed6076980bdebfa694ab6e121a7ab\\mediarouter-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "13,14,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "804,879,957",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "874,952,1027"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Matloob\\.gradle\\caches\\transforms-2\\files-2.1\\5ad12eeb336239dbab6b3f8f7318c2e1\\jetified-drop-in-3.7.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,131,202,264,325",
+                        "endColumns": "75,70,61,60,59",
+                        "endOffsets": "126,197,259,320,380"
+                    },
+                    "to": {
+                        "startLines": "5,6,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "264,340,621,683,744",
+                        "endColumns": "75,70,61,60,59",
+                        "endOffsets": "335,406,678,739,799"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Matloob\\.gradle\\caches\\transforms-2\\files-2.1\\20af5b5d11aa9e3bec250f731b13d22d\\material-1.2.0-alpha06\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,198,270,340,405,472,542,614,683,752,834,924,1000,1068,1135,1213,1278,1345,1517,1912",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,23,29,34",
+                        "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
+                        "endOffsets": "123,193,265,335,400,467,537,609,678,747,829,919,995,1063,1130,1208,1273,1340,1512,1907,2176"
+                    },
+                    "to": {
+                        "startLines": "16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,38,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1032,1105,1175,1247,1317,1382,1449,1519,1591,1660,1729,1811,1901,1977,2045,2112,2190,2255,2322,2494,2889",
+                        "endLines": "16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,37,43,48",
+                        "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
+                        "endOffsets": "1100,1170,1242,1312,1377,1444,1514,1586,1655,1724,1806,1896,1972,2040,2107,2185,2250,2317,2489,2884,3153"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Matloob\\.gradle\\caches\\transforms-2\\files-2.1\\b8d2934f7eb6b326f638910d0a188d00\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Matloob\\.gradle\\caches\\transforms-2\\files-2.1\\a02feaeb9bd7abfe793a503531b9a5ac\\jetified-card-form-3.5.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,192",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "114,187,260"
+                    },
+                    "to": {
+                        "startLines": "7,8,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "411,475,548",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "470,543,616"
+                    }
+                }
+            ]
+        }
+    ]
+}

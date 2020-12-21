@@ -1,0 +1,730 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smartserve.consumer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:6:5-67
+11-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:7:5-79
+12-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:8:5-80
+13-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+14-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:9:5-11:47
+14-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:10:9-70
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:12:5-81
+15-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:12:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:13:5-79
+16-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:13:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:14:5-81
+17-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:14:22-78
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:15:5-75
+18-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:15:22-72
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:12:5-65
+19-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:12:22-62
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:13:5-68
+20-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:13:22-65
+21
+22    <uses-feature android:name="android.hardware.camera" />
+22-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0c7af30756c51e3010339577f97acbe1\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:11:5-60
+22-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0c7af30756c51e3010339577f97acbe1\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:11:19-57
+23
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[com.google.android.libraries.places:places:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\544e453836f279322efee5884b33e341\jetified-places-2.2.0\AndroidManifest.xml:10:5-76
+24-->[com.google.android.libraries.places:places:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\544e453836f279322efee5884b33e341\jetified-places-2.2.0\AndroidManifest.xml:10:22-73
+25    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+25-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:15:5-98
+25-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:15:22-95
+26    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+26-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:16:5-94
+26-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:16:22-91
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\11a61de1e380a1cbbfd0cd4ab46262a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\11a61de1e380a1cbbfd0cd4ab46262a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+30        android:required="true" /> <!-- Step 1: Add the following permission to the app -->
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\11a61de1e380a1cbbfd0cd4ab46262a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+31    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- Step 2: This permission is depreciated in Android P -->
+31-->[com.an.biometric:biometric-auth:0.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\da47c45d20e5a1695caa629a068a8920\jetified-biometric-auth-0.1.0\AndroidManifest.xml:12:5-72
+31-->[com.an.biometric:biometric-auth:0.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\da47c45d20e5a1695caa629a068a8920\jetified-biometric-auth-0.1.0\AndroidManifest.xml:12:22-69
+32    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+32-->[com.an.biometric:biometric-auth:0.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\da47c45d20e5a1695caa629a068a8920\jetified-biometric-auth-0.1.0\AndroidManifest.xml:15:5-74
+32-->[com.an.biometric:biometric-auth:0.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\da47c45d20e5a1695caa629a068a8920\jetified-biometric-auth-0.1.0\AndroidManifest.xml:15:22-71
+33    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+33-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:26:5-82
+33-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:26:22-79
+34    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+34-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:26:5-110
+34-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:26:22-107
+35
+36    <application
+36-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:17:5-61:19
+37        android:name="com.preach.mentaldisorder.Utils.Application.ConsumerApplication"
+37-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:18:9-87
+38        android:allowBackup="false"
+38-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:19:9-36
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\fca9c83b25132e9fad6ccb51fd183af0\core-1.2.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:fullBackupOnly="false"
+41-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:20:9-39
+42        android:icon="@mipmap/ic_launcher"
+42-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:21:9-43
+43        android:label="@string/app_name"
+43-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:22:9-41
+44        android:roundIcon="@mipmap/ic_launcher"
+44-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:23:9-48
+45        android:supportsRtl="true"
+45-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:24:9-35
+46        android:theme="@style/AppTheme"
+46-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:25:9-40
+47        android:usesCleartextTraffic="true" >
+47-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:26:9-44
+48        <activity
+48-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:29:9-33:52
+49            android:name="com.smartserve.consumer.Views.activities.RegistrationActivity"
+49-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:30:13-89
+50            android:configChanges="uiMode"
+50-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:31:13-43
+51            android:theme="@style/AppThemeNoBar"
+51-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:33:13-49
+52            android:windowSoftInputMode="adjustPan" />
+52-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:32:13-52
+53        <!-- <activity -->
+54        <!-- android:name="com.preach.mentaldisorder.Views.activities.MainActivity" -->
+55        <!-- android:theme="@style/AppThemeNoBar" /> -->
+56
+57        <activity
+57-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:38:9-49:20
+58            android:name="com.smartserve.consumer.Views.activities.SplashActivity"
+58-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:39:13-83
+59            android:configChanges="uiMode"
+59-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:40:13-43
+60            android:screenOrientation="portrait"
+60-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:41:13-49
+61            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+61-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:42:13-80
+62            android:windowSoftInputMode="adjustPan" >
+62-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:43:13-52
+63            <intent-filter>
+63-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:44:13-48:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:45:17-69
+64-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:45:25-66
+65                <action android:name="android.intent.action.VIEW" />
+65-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:46:17-69
+65-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:46:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:47:17-77
+67-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:47:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:51:9-53:59
+71            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+71-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:52:13-76
+72            android:theme="@style/Base.Theme.AppCompat" />
+72-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:53:13-56
+73
+74        <meta-data
+74-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:55:9-57:57
+75            android:name="com.google.android.geo.API_KEY"
+75-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:56:13-58
+76            android:value="@string/google_places_key" />
+76-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:57:13-54
+77        <meta-data
+77-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:58:9-60:69
+78            android:name="com.google.android.gms.version"
+78-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:59:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:60:13-66
+80
+81        <activity
+81-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:12:9-14:57
+82            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+82-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:13:13-76
+83            android:theme="@style/StripeDefaultTheme" />
+83-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:14:13-54
+84        <activity
+84-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:15:9-17:57
+85            android:name="com.stripe.android.view.PaymentMethodsActivity"
+85-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:16:13-74
+86            android:theme="@style/StripeDefaultTheme" />
+86-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:17:13-54
+87        <activity
+87-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:18:9-20:57
+88            android:name="com.stripe.android.view.PaymentFlowActivity"
+88-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:19:13-71
+89            android:theme="@style/StripeDefaultTheme" />
+89-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:20:13-54
+90        <activity
+90-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:21:9-23:57
+91            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+91-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:22:13-78
+92            android:theme="@style/StripeDefaultTheme" />
+92-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:23:13-54
+93        <activity
+93-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:24:9-26:57
+94            android:name="com.stripe.android.view.PaymentRelayActivity"
+94-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:25:13-72
+95            android:theme="@style/StripeDefaultTheme" />
+95-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:26:13-54
+96        <activity
+96-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:27:9-29:57
+97            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+97-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:28:13-80
+98            android:theme="@style/StripeDefaultTheme" />
+98-->[com.stripe:stripe-android:14.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\931039b441ef2f5e7ae6c6dac9afd6d1\jetified-stripe-android-14.2.0\AndroidManifest.xml:29:13-54
+99        <activity
+99-->[com.stripe:stripe-3ds2-android:2.7.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\8b743f6b3b6015a5ce2149d91040941d\jetified-stripe-3ds2-android-2.7.2\AndroidManifest.xml:12:9-14:54
+100            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+100-->[com.stripe:stripe-3ds2-android:2.7.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\8b743f6b3b6015a5ce2149d91040941d\jetified-stripe-3ds2-android-2.7.2\AndroidManifest.xml:13:13-81
+101            android:theme="@style/Stripe3DS2Theme" />
+101-->[com.stripe:stripe-3ds2-android:2.7.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\8b743f6b3b6015a5ce2149d91040941d\jetified-stripe-3ds2-android-2.7.2\AndroidManifest.xml:14:13-51
+102        <activity
+102-->[com.stripe:stripe-3ds2-android:2.7.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\8b743f6b3b6015a5ce2149d91040941d\jetified-stripe-3ds2-android-2.7.2\AndroidManifest.xml:15:9-17:54
+103            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity"
+103-->[com.stripe:stripe-3ds2-android:2.7.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\8b743f6b3b6015a5ce2149d91040941d\jetified-stripe-3ds2-android-2.7.2\AndroidManifest.xml:16:13-95
+104            android:theme="@style/Stripe3DS2Theme" />
+104-->[com.stripe:stripe-3ds2-android:2.7.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\8b743f6b3b6015a5ce2149d91040941d\jetified-stripe-3ds2-android-2.7.2\AndroidManifest.xml:17:13-51
+105        <activity
+105-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:16:9-19:67
+106            android:name="com.nguyenhoanglam.imagepicker.ui.imagepicker.ImagePickerActivity"
+106-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:17:13-93
+107            android:configChanges="orientation|screenSize"
+107-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:18:13-59
+108            android:theme="@style/imagepicker_ImagePickerTheme" />
+108-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:19:13-64
+109        <activity
+109-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:20:9-23:62
+110            android:name="com.nguyenhoanglam.imagepicker.ui.camera.CameraActivty"
+110-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:21:13-82
+111            android:screenOrientation="portrait"
+111-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:22:13-49
+112            android:theme="@style/imagepicker_CameraTheme" />
+112-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:23:13-59
+113
+114        <provider
+114-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:25:9-33:20
+115            android:name="androidx.core.content.FileProvider"
+115-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:26:13-62
+116            android:authorities="com.smartserve.consumer.fileprovider"
+116-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:27:13-64
+117            android:exported="false"
+117-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:28:13-37
+118            android:grantUriPermissions="true" >
+118-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:29:13-47
+119            <meta-data
+119-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:30:13-32:66
+120                android:name="android.support.FILE_PROVIDER_PATHS"
+120-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:31:17-67
+121                android:resource="@xml/imagepicker_file_paths" />
+121-->[com.github.nguyenhoanglam:ImagePicker:1.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3d12b300e4b08b2b2d9bcb6c7d2b10af\jetified-ImagePicker-1.3.0\AndroidManifest.xml:32:17-63
+122        </provider>
+123
+124        <meta-data
+124-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0c7af30756c51e3010339577f97acbe1\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:21:9-23:39
+125            android:name="com.google.android.gms.vision.DEPENDENCIES"
+125-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0c7af30756c51e3010339577f97acbe1\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:22:13-70
+126            android:value="barcode" />
+126-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0c7af30756c51e3010339577f97acbe1\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:23:13-36
+127
+128        <activity
+128-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0c7af30756c51e3010339577f97acbe1\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:25:9-29:20
+129            android:name="com.edwardvanraak.materialbarcodescanner.MaterialBarcodeScannerActivity"
+129-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0c7af30756c51e3010339577f97acbe1\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:26:13-99
+130            android:label="@string/library_name"
+130-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0c7af30756c51e3010339577f97acbe1\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:27:13-49
+131            android:theme="@style/AppTheme.NoActionBar" >
+131-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0c7af30756c51e3010339577f97acbe1\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:28:13-56
+132        </activity>
+133        <activity
+133-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
+134            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
+134-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
+135            android:theme="@style/bt_three_d_secure_theme" />
+135-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
+136        <activity
+136-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
+137            android:name="com.braintreepayments.api.dropin.DropInActivity"
+137-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
+138            android:theme="@style/bt_drop_in_activity_theme" />
+138-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
+139        <activity
+139-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
+140            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+140-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
+141            android:theme="@style/bt_add_card_activity_theme" />
+141-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
+142        <activity
+142-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
+143            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+143-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
+144            android:theme="@style/bt_vault_manager_activity_theme" />
+144-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5ad12eeb336239dbab6b3f8f7318c2e1\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
+145        <activity
+145-->[com.google.android.libraries.places:places:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\544e453836f279322efee5884b33e341\jetified-places-2.2.0\AndroidManifest.xml:14:9-20:20
+146            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+146-->[com.google.android.libraries.places:places:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\544e453836f279322efee5884b33e341\jetified-places-2.2.0\AndroidManifest.xml:15:13-91
+147            android:exported="false"
+147-->[com.google.android.libraries.places:places:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\544e453836f279322efee5884b33e341\jetified-places-2.2.0\AndroidManifest.xml:16:13-37
+148            android:label="@string/places_autocomplete_label"
+148-->[com.google.android.libraries.places:places:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\544e453836f279322efee5884b33e341\jetified-places-2.2.0\AndroidManifest.xml:17:13-62
+149            android:theme="@style/PlacesAutocompleteOverlay"
+149-->[com.google.android.libraries.places:places:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\544e453836f279322efee5884b33e341\jetified-places-2.2.0\AndroidManifest.xml:18:13-61
+150            android:windowSoftInputMode="adjustResize" >
+150-->[com.google.android.libraries.places:places:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\544e453836f279322efee5884b33e341\jetified-places-2.2.0\AndroidManifest.xml:19:13-55
+151        </activity>
+152        <activity
+152-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
+153            android:name="com.facebook.FacebookActivity"
+153-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:31:13-57
+154            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+154-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:32:13-96
+155            android:theme="@style/com_facebook_activity_theme" />
+155-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+156        <activity android:name="com.facebook.CustomTabMainActivity" />
+156-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+156-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+157        <activity
+157-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:35:9-49:20
+158            android:name="com.facebook.CustomTabActivity"
+158-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:36:13-58
+159            android:exported="true" >
+159-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:37:13-36
+160            <intent-filter>
+160-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+161                <action android:name="android.intent.action.VIEW" />
+161-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:46:17-69
+161-->E:\Faizan Work\PreachMentalDisorder\app\src\main\AndroidManifest.xml:46:25-66
+162
+163                <category android:name="android.intent.category.DEFAULT" />
+163-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:17-76
+163-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:27-73
+164                <category android:name="android.intent.category.BROWSABLE" />
+164-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:17-78
+164-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:27-75
+165
+166                <data
+166-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:45:17-47:50
+167                    android:host="cct.com.smartserve.consumer"
+167-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:46:21-56
+168                    android:scheme="fbconnect" />
+168-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf85ac69d77e74c30ba2ea5264fb0ad0\jetified-facebook-common-5.15.3\AndroidManifest.xml:47:21-47
+169            </intent-filter>
+170        </activity>
+171        <activity
+171-->[com.nabinbhandari.android:permissions:3.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\f75654dc05f1966679e94f1000d48b88\jetified-permissions-3.8\AndroidManifest.xml:12:9-14:67
+172            android:name="com.nabinbhandari.android.permissions.PermissionsActivity"
+172-->[com.nabinbhandari.android:permissions:3.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\f75654dc05f1966679e94f1000d48b88\jetified-permissions-3.8\AndroidManifest.xml:13:13-85
+173            android:theme="@style/Permissions.TransparentTheme" />
+173-->[com.nabinbhandari.android:permissions:3.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\f75654dc05f1966679e94f1000d48b88\jetified-permissions-3.8\AndroidManifest.xml:14:13-64
+174
+175        <service
+175-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:19:9-21:40
+176            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+176-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:20:13-132
+177            android:exported="false" />
+177-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:21:13-37
+178        <service
+178-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:22:9-24:40
+179            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+179-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:23:13-127
+180            android:exported="false" />
+180-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:24:13-37
+181        <service
+181-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:25:9-27:40
+182            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+182-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:26:13-120
+183            android:exported="false" />
+183-->[io.nlopez.smartlocation:library:3.3.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\154398297d9ce32df573a9a9958ee305\jetified-library-3.3.3\AndroidManifest.xml:27:13-37
+184
+185        <activity
+185-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\14e318c65a538efe144b81dcaa4e9e4a\jetified-tweet-ui-3.1.1\AndroidManifest.xml:28:9-31:49
+186            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+186-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\14e318c65a538efe144b81dcaa4e9e4a\jetified-tweet-ui-3.1.1\AndroidManifest.xml:29:13-74
+187            android:configChanges="keyboardHidden|orientation|screenSize"
+187-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\14e318c65a538efe144b81dcaa4e9e4a\jetified-tweet-ui-3.1.1\AndroidManifest.xml:30:13-74
+188            android:theme="@style/MediaTheme" />
+188-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\14e318c65a538efe144b81dcaa4e9e4a\jetified-tweet-ui-3.1.1\AndroidManifest.xml:31:13-46
+189        <activity
+189-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\14e318c65a538efe144b81dcaa4e9e4a\jetified-tweet-ui-3.1.1\AndroidManifest.xml:32:9-34:49
+190            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+190-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\14e318c65a538efe144b81dcaa4e9e4a\jetified-tweet-ui-3.1.1\AndroidManifest.xml:33:13-75
+191            android:theme="@style/MediaTheme" />
+191-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\14e318c65a538efe144b81dcaa4e9e4a\jetified-tweet-ui-3.1.1\AndroidManifest.xml:34:13-46
+192        <activity
+192-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5220e773f3a31c71d59eb6187e5be3af\jetified-tweet-composer-3.1.1\AndroidManifest.xml:28:9-31:71
+193            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+193-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5220e773f3a31c71d59eb6187e5be3af\jetified-tweet-composer-3.1.1\AndroidManifest.xml:29:13-82
+194            android:exported="false"
+194-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5220e773f3a31c71d59eb6187e5be3af\jetified-tweet-composer-3.1.1\AndroidManifest.xml:30:13-37
+195            android:windowSoftInputMode="adjustResize|stateVisible" />
+195-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5220e773f3a31c71d59eb6187e5be3af\jetified-tweet-composer-3.1.1\AndroidManifest.xml:31:13-68
+196
+197        <service
+197-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5220e773f3a31c71d59eb6187e5be3af\jetified-tweet-composer-3.1.1\AndroidManifest.xml:33:9-36:40
+198            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+198-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5220e773f3a31c71d59eb6187e5be3af\jetified-tweet-composer-3.1.1\AndroidManifest.xml:34:13-84
+199            android:enabled="true"
+199-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5220e773f3a31c71d59eb6187e5be3af\jetified-tweet-composer-3.1.1\AndroidManifest.xml:35:13-35
+200            android:exported="false" />
+200-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\5220e773f3a31c71d59eb6187e5be3af\jetified-tweet-composer-3.1.1\AndroidManifest.xml:36:13-37
+201
+202        <activity
+202-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\c8142aba9b5b580f28f0c0873d883598\jetified-twitter-core-3.1.1\AndroidManifest.xml:28:9-32:40
+203            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+203-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\c8142aba9b5b580f28f0c0873d883598\jetified-twitter-core-3.1.1\AndroidManifest.xml:29:13-79
+204            android:configChanges="orientation|screenSize"
+204-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\c8142aba9b5b580f28f0c0873d883598\jetified-twitter-core-3.1.1\AndroidManifest.xml:30:13-59
+205            android:excludeFromRecents="true"
+205-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\c8142aba9b5b580f28f0c0873d883598\jetified-twitter-core-3.1.1\AndroidManifest.xml:31:13-46
+206            android:exported="false" />
+206-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\c8142aba9b5b580f28f0c0873d883598\jetified-twitter-core-3.1.1\AndroidManifest.xml:32:13-37
+207        <activity
+207-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:28:9-30:77
+208            android:name="com.mopub.mobileads.MoPubActivity"
+208-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:29:13-61
+209            android:configChanges="keyboardHidden|orientation|screenSize" />
+209-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:30:13-74
+210        <activity
+210-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:31:9-33:77
+211            android:name="com.mopub.mobileads.MraidActivity"
+211-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:32:13-61
+212            android:configChanges="keyboardHidden|orientation|screenSize" />
+212-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:33:13-74
+213        <activity
+213-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:34:9-36:77
+214            android:name="com.mopub.common.MoPubBrowser"
+214-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:35:13-57
+215            android:configChanges="keyboardHidden|orientation|screenSize" />
+215-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:36:13-74
+216        <activity
+216-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:37:9-39:77
+217            android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+217-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:38:13-72
+218            android:configChanges="keyboardHidden|orientation|screenSize" />
+218-->[com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4670fada9d6e9c9f88e2349894482bff\jetified-twitter-mopub-3.1.1\AndroidManifest.xml:39:13-74
+219        <!--
+220             FirebaseMessagingService performs security checks at runtime,
+221             but set to not exported to explicitly avoid allowing another app to call it.
+222        -->
+223        <service
+223-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:28:9-34:19
+224            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+224-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:29:13-82
+225            android:exported="false" >
+225-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:30:13-37
+226            <intent-filter android:priority="-500" >
+226-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:31:13-33:29
+226-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:31:28-51
+227                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+227-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:32:17-78
+227-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:32:25-75
+228            </intent-filter>
+229        </service>
+230        <service
+230-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:35:9-41:19
+231            android:name="com.google.firebase.components.ComponentDiscoveryService"
+231-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:36:13-84
+232            android:directBootAware="true"
+232-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0f07a2f280c2fc951661ad90d4863506\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+233            android:exported="false" >
+233-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:37:13-37
+234            <meta-data
+234-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:38:13-40:85
+235                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+235-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:39:17-119
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-messaging:20.1.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\143c5cb3a6642a4ed24fdfa11015bc35\jetified-firebase-messaging-20.1.3\AndroidManifest.xml:40:17-82
+237            <meta-data
+237-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+238                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+238-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+240            <meta-data
+240-->[com.google.firebase:firebase-perf:19.0.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\649ad6bfcd5926673ac9f3b59772b67e\jetified-firebase-perf-19.0.8\AndroidManifest.xml:34:13-36:85
+241                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+241-->[com.google.firebase:firebase-perf:19.0.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\649ad6bfcd5926673ac9f3b59772b67e\jetified-firebase-perf-19.0.8\AndroidManifest.xml:35:17-109
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.firebase:firebase-perf:19.0.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\649ad6bfcd5926673ac9f3b59772b67e\jetified-firebase-perf-19.0.8\AndroidManifest.xml:36:17-82
+243            <meta-data
+243-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\b3f2ddac51155ca57c3eeab7529e7314\jetified-play-services-measurement-api-17.2.3\AndroidManifest.xml:30:13-32:85
+244                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+244-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\b3f2ddac51155ca57c3eeab7529e7314\jetified-play-services-measurement-api-17.2.3\AndroidManifest.xml:31:17-139
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.android.gms:play-services-measurement-api:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\b3f2ddac51155ca57c3eeab7529e7314\jetified-play-services-measurement-api-17.2.3\AndroidManifest.xml:32:17-82
+246            <meta-data
+246-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:32:13-34:85
+247                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+247-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:33:17-96
+248                android:value="com.google.firebase.components.ComponentRegistrar" />
+248-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:34:17-82
+249            <meta-data
+249-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4ae6f57855181561f9f53de38a2ae68f\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+250                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+250-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4ae6f57855181561f9f53de38a2ae68f\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+251                android:value="com.google.firebase.components.ComponentRegistrar" />
+251-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4ae6f57855181561f9f53de38a2ae68f\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+252            <meta-data
+252-->[com.google.firebase:firebase-config:19.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\38fda0cddd3d5ce3212ea4b4d3da2ffc\jetified-firebase-config-19.2.0\AndroidManifest.xml:32:13-34:85
+253                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+253-->[com.google.firebase:firebase-config:19.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\38fda0cddd3d5ce3212ea4b4d3da2ffc\jetified-firebase-config-19.2.0\AndroidManifest.xml:33:17-117
+254                android:value="com.google.firebase.components.ComponentRegistrar" />
+254-->[com.google.firebase:firebase-config:19.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\38fda0cddd3d5ce3212ea4b4d3da2ffc\jetified-firebase-config-19.2.0\AndroidManifest.xml:34:17-82
+255            <meta-data
+255-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf51bd7e4b26373ba474554c5d3abad0\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+256                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+256-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf51bd7e4b26373ba474554c5d3abad0\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+257                android:value="com.google.firebase.components.ComponentRegistrar" />
+257-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\bf51bd7e4b26373ba474554c5d3abad0\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+258            <meta-data
+258-->[com.google.firebase:firebase-abt:19.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\26d1e652b2f5b453d33538c87a8f68d6\jetified-firebase-abt-19.1.0\AndroidManifest.xml:13:13-15:85
+259                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+259-->[com.google.firebase:firebase-abt:19.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\26d1e652b2f5b453d33538c87a8f68d6\jetified-firebase-abt-19.1.0\AndroidManifest.xml:14:17-109
+260                android:value="com.google.firebase.components.ComponentRegistrar" />
+260-->[com.google.firebase:firebase-abt:19.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\26d1e652b2f5b453d33538c87a8f68d6\jetified-firebase-abt-19.1.0\AndroidManifest.xml:15:17-82
+261        </service>
+262
+263        <provider
+263-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0b7726082640050937c4f59d2a7c81be\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+264            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+264-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0b7726082640050937c4f59d2a7c81be\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+265            android:authorities="com.smartserve.consumer.crashlyticsinitprovider"
+265-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0b7726082640050937c4f59d2a7c81be\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+266            android:exported="false"
+266-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0b7726082640050937c4f59d2a7c81be\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+267            android:initOrder="90" />
+267-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0b7726082640050937c4f59d2a7c81be\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+268
+269        <activity
+269-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+270            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+270-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+271            android:excludeFromRecents="true"
+271-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+272            android:exported="true"
+272-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+273            android:launchMode="singleTask"
+273-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+274            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+274-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+275            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+275-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\9801c118501b9c0458d600ceb73227b6\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+276        <uses-library
+276-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\11a61de1e380a1cbbfd0cd4ab46262a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+277            android:name="org.apache.http.legacy"
+277-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\11a61de1e380a1cbbfd0cd4ab46262a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+278            android:required="false" />
+278-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\11a61de1e380a1cbbfd0cd4ab46262a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+279
+280        <activity
+280-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\352412ee237e69ae7c106ff37ed94ee9\jetified-braintree-2.22.0\AndroidManifest.xml:15:9-17:62
+281            android:name="com.braintreepayments.api.AndroidPayActivity"
+281-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\352412ee237e69ae7c106ff37ed94ee9\jetified-braintree-2.22.0\AndroidManifest.xml:16:13-72
+282            android:theme="@style/bt_transparent_activity" />
+282-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\352412ee237e69ae7c106ff37ed94ee9\jetified-braintree-2.22.0\AndroidManifest.xml:17:13-59
+283        <activity
+283-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\352412ee237e69ae7c106ff37ed94ee9\jetified-braintree-2.22.0\AndroidManifest.xml:18:9-20:62
+284            android:name="com.braintreepayments.api.GooglePaymentActivity"
+284-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\352412ee237e69ae7c106ff37ed94ee9\jetified-braintree-2.22.0\AndroidManifest.xml:19:13-75
+285            android:theme="@style/bt_transparent_activity" />
+285-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\352412ee237e69ae7c106ff37ed94ee9\jetified-braintree-2.22.0\AndroidManifest.xml:20:13-59
+286
+287        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+287-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\352412ee237e69ae7c106ff37ed94ee9\jetified-braintree-2.22.0\AndroidManifest.xml:23:9-93
+287-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\352412ee237e69ae7c106ff37ed94ee9\jetified-braintree-2.22.0\AndroidManifest.xml:23:18-90
+288
+289        <provider
+289-->[com.google.firebase:firebase-perf:19.0.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\649ad6bfcd5926673ac9f3b59772b67e\jetified-firebase-perf-19.0.8\AndroidManifest.xml:25:9-29:39
+290            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+290-->[com.google.firebase:firebase-perf:19.0.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\649ad6bfcd5926673ac9f3b59772b67e\jetified-firebase-perf-19.0.8\AndroidManifest.xml:26:13-82
+291            android:authorities="com.smartserve.consumer.firebaseperfprovider"
+291-->[com.google.firebase:firebase-perf:19.0.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\649ad6bfcd5926673ac9f3b59772b67e\jetified-firebase-perf-19.0.8\AndroidManifest.xml:27:13-72
+292            android:exported="false"
+292-->[com.google.firebase:firebase-perf:19.0.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\649ad6bfcd5926673ac9f3b59772b67e\jetified-firebase-perf-19.0.8\AndroidManifest.xml:28:13-37
+293            android:initOrder="101" />
+293-->[com.google.firebase:firebase-perf:19.0.8] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\649ad6bfcd5926673ac9f3b59772b67e\jetified-firebase-perf-19.0.8\AndroidManifest.xml:29:13-36
+294
+295        <service
+295-->[androidx.room:room-runtime:2.2.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\adec0c5ecf99e4002639cda53b429c08\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
+296            android:name="androidx.room.MultiInstanceInvalidationService"
+296-->[androidx.room:room-runtime:2.2.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\adec0c5ecf99e4002639cda53b429c08\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
+297            android:exported="false" />
+297-->[androidx.room:room-runtime:2.2.1] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\adec0c5ecf99e4002639cda53b429c08\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
+298
+299        <receiver
+299-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:37:9-44:20
+300            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+300-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:38:13-78
+301            android:exported="true"
+301-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:39:13-36
+302            android:permission="com.google.android.c2dm.permission.SEND" >
+302-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:40:13-73
+303            <intent-filter>
+303-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:41:13-43:29
+304                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+304-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:42:17-81
+304-->[com.google.firebase:firebase-iid:20.1.2] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\3b19e510fa26968f90d59a1763bdde92\jetified-firebase-iid-20.1.2\AndroidManifest.xml:42:25-78
+305            </intent-filter>
+306        </receiver>
+307
+308        <activity
+308-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\1aa217c1ce5af2c0e4f2b6a3b0fa3a08\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+309            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+309-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\1aa217c1ce5af2c0e4f2b6a3b0fa3a08\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+310            android:exported="false"
+310-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\1aa217c1ce5af2c0e4f2b6a3b0fa3a08\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+311            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+311-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\1aa217c1ce5af2c0e4f2b6a3b0fa3a08\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+312
+313        <provider
+313-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0f07a2f280c2fc951661ad90d4863506\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+314            android:name="com.google.firebase.provider.FirebaseInitProvider"
+314-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0f07a2f280c2fc951661ad90d4863506\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+315            android:authorities="com.smartserve.consumer.firebaseinitprovider"
+315-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0f07a2f280c2fc951661ad90d4863506\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+316            android:exported="false"
+316-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0f07a2f280c2fc951661ad90d4863506\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+317            android:initOrder="100" />
+317-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\0f07a2f280c2fc951661ad90d4863506\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+318
+319        <receiver
+319-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:29:9-33:20
+320            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+320-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:30:13-85
+321            android:enabled="true"
+321-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:31:13-35
+322            android:exported="false" >
+322-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:32:13-37
+323        </receiver>
+324        <receiver
+324-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:34:9-42:20
+325            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+325-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:35:13-100
+326            android:enabled="true"
+326-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:36:13-35
+327            android:exported="true"
+327-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:37:13-36
+328            android:permission="android.permission.INSTALL_PACKAGES" >
+328-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:38:13-69
+329            <intent-filter>
+329-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:39:13-41:29
+330                <action android:name="com.android.vending.INSTALL_REFERRER" />
+330-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:40:17-79
+330-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:40:25-76
+331            </intent-filter>
+332        </receiver>
+333
+334        <service
+334-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:44:9-47:40
+335            android:name="com.google.android.gms.measurement.AppMeasurementService"
+335-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:45:13-84
+336            android:enabled="true"
+336-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:46:13-35
+337            android:exported="false" />
+337-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:47:13-37
+338        <service
+338-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:48:9-52:72
+339            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+339-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:49:13-87
+340            android:enabled="true"
+340-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:50:13-35
+341            android:exported="false"
+341-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:51:13-37
+342            android:permission="android.permission.BIND_JOB_SERVICE" />
+342-->[com.google.android.gms:play-services-measurement:17.2.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\46f44f0453c45114632d1a359c5b62cf\jetified-play-services-measurement-17.2.3\AndroidManifest.xml:52:13-69
+343        <!--
+344         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+345         with the application context. This config is merged in with the host app's manifest,
+346         but there can only be one provider with the same authority activated at any given
+347         point; so if the end user has two or more different apps that use Facebook SDK, only the
+348         first one will be able to use the provider. To work around this problem, we use the
+349         following placeholder in the authority to identify each host application as if it was
+350         a completely different provider.
+351        -->
+352        <provider
+352-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+353            android:name="com.facebook.internal.FacebookInitProvider"
+353-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+354            android:authorities="com.smartserve.consumer.FacebookInitProvider"
+354-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+355            android:exported="false" />
+355-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+356
+357        <receiver
+357-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+358            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+358-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+359            android:exported="false" >
+359-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+360            <intent-filter>
+360-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+361                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+361-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+361-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\950306ee0263690bfe60889a8616e36f\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+362            </intent-filter>
+363        </receiver>
+364
+365        <provider
+365-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4bbefb1d0f3d9f97e3975064ba3c1d70\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+366            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+366-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4bbefb1d0f3d9f97e3975064ba3c1d70\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+367            android:authorities="com.smartserve.consumer.lifecycle-process"
+367-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4bbefb1d0f3d9f97e3975064ba3c1d70\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+368            android:exported="false"
+368-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4bbefb1d0f3d9f97e3975064ba3c1d70\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+369            android:multiprocess="true" />
+369-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\4bbefb1d0f3d9f97e3975064ba3c1d70\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+370
+371        <service
+371-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\26be2197ec43a66b0c7357d860e85dba\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+372            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+372-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\26be2197ec43a66b0c7357d860e85dba\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+373            android:exported="false" >
+373-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\26be2197ec43a66b0c7357d860e85dba\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+374            <meta-data
+374-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\26be2197ec43a66b0c7357d860e85dba\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+375                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+375-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\26be2197ec43a66b0c7357d860e85dba\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+376                android:value="cct" />
+376-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\26be2197ec43a66b0c7357d860e85dba\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+377        </service>
+378        <service
+378-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\d5e8f39a011500857bd6f5e8993bcaa2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+379            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+379-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\d5e8f39a011500857bd6f5e8993bcaa2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+380            android:exported="false"
+380-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\d5e8f39a011500857bd6f5e8993bcaa2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+381            android:permission="android.permission.BIND_JOB_SERVICE" >
+381-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\d5e8f39a011500857bd6f5e8993bcaa2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+382        </service>
+383
+384        <receiver
+384-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\d5e8f39a011500857bd6f5e8993bcaa2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+385            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+385-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\d5e8f39a011500857bd6f5e8993bcaa2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+386            android:exported="false" />
+386-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Matloob\.gradle\caches\transforms-2\files-2.1\d5e8f39a011500857bd6f5e8993bcaa2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+387    </application>
+388
+389</manifest>
